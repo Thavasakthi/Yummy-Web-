@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    padding: 0;
+ }
+ .Topnav{
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     background-color:white;
+     width: 100vw;
+     height: 100px;
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ img {
+     width: 200px;
+ }
+ .Menu_list{
+    color: grey;
+     display: flex;
+     align-items: center;
+     padding: 35px;
+     margin: 15px;
+     text-decoration: none; 
+ 
+ }
+
+
+ .menu {
+    font-size: 20px;
+     margin: 20px;
+     padding: 25px;
+
+ }
+ .menu a{
+    text-decoration: none; 
+    color: grey;
+ }
+ .menu a:hover{
+     color: black;
+ }
+ button{
+     width: 130px;
+     height: 35px;
+     background-color: #ce1212;
+     border: none;
+     color: white;
+     border-radius: 20px;
+     font-size: 15px;
+ }
+ button:hover{
+     background-color: #bf4c4c; 
+ }
+ .image img{
+    
+width: 700px;
+height: 700px;
+margin-top: 60px;
+margin-left: 20px;
+
+ }
+ .food{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #bebcbc;
+    height: 90vh;
+ }
+ .letters{
+    font-size: 50px;
+    font-family: Papyrus, fantasy;
+ }
+ .small{
+    font-size:25px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(110, 105, 105);
+ }
+ .btn{
+
+    width: 200px;
+    height: 50px;
+    background-color: #ce1212;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.icon{
+    color: red;
+ 
+
+}
+.icon span{
+    color: rgb(73, 73, 73);
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.section{
+    background-color: gray;
+}
+.both{
+    margin: 30px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+
+} 
+.image2 img{
+    width: 800px;
+    height: 800px;
+    margin-top: 50px;
+    margin-left: 270px;
+    
+}
+.two{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 90vh;
+}
+.tick{
+ color:red; 
+}
+.tick span{
+    color: rgb(100, 97, 97);
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.senten{
+    display: flex;
+    margin-bottom: 0px;
+    font-size: 17px;
+    margin-right: 150px;
+    color: rgb(88, 79, 79);
+}
+.con{
+    color:rgb(247, 245, 245); 
+}
+.cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ce1212;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+}
+.con span{
+    color: rgb(100, 97, 97);
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.con1{
+    color: red;
+}
+.con1 span{
+    color: rgb(100, 97, 97);
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.icons{
+    margin: 10px;
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color:white;
+    width: 10opx;
+    height: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.call{
+    color: black;
+    font-size: 20px;
+
+
+
+}
+.Call2{
+    color: black;
+    font-size: 20px;
+}
+.cons1{
+    background-color: rgb(230, 219, 219);
+    width:700px;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 80px;
+}
+.conss1{
+    
+    background-color: rgb(230, 219, 219);
+     
+    margin-top: 10px;
+    width:700px;
+    height: 100px;
+    margin-right: 80px;
+}
+.web{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-around;
+    background-color:white;
+    width: 100vw;
+    height: 100px;   
+}
+.bt{
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    background-color: #ce1212;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-bottom: 150px;
+
+}
+.card{ 
+   padding: 18px;
+    display: flex;
+    align-items: center;
+    background-color:rgb(206, 198, 198);
+    width:40%;
+    height:92px;
+}
+.information{
+    margin:25px;
+}
+form {
+  margin:90px;
+  }
+ .label {
+    display: block;
+    margin-bottom: 8px;
+  }
+ input {
+    
+    width: 48vw;
+    height: 50px;
+    margin-bottom: 16px;
+    margin: 10px;
+
+ }
+.name{
+    gap: 6%;
+    display: flex;
+    flex-direction: row;
+}
+.subject input{
+    display: flex;
+    width: 99%;
+
+}
+input::placeholder{
+    padding: 10px;
+}
+textarea{
+    border-color: gray;
+    color: rgb(138, 138, 138);
+margin-left: 10px;
+ padding: 12px;
+}
+.foods{
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.foods img{
+    width:350px;
+    height: 350px;
+}
+.foods2{
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.foods2 img{
+    width:350px;
+    height: 350px;
+}
