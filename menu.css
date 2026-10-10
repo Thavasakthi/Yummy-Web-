@@ -75,6 +75,7 @@ textarea {
   transition: color 0.2s ease;
 }
 
+.menu.active,
 .menu:hover,
 .menu:focus-visible {
   color: var(--text-dark);
@@ -410,6 +411,12 @@ textarea {
 
 .bt {
   min-width: 220px;
+}
+
+.form-status {
+  margin-top: 18px;
+  text-align: center;
+  font-weight: 600;
 }
 
 @media (max-width: 920px) {
